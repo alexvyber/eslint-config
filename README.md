@@ -17,7 +17,7 @@ Extend a `@alexvyber` config for JavaScript/TypeScript projects.
 ```js
 // .eslintrc.cjs
 module.exports = {
-  extends: ['@alexvyber']
+  extends: ["@alexvyber"],
 }
 ```
 
@@ -28,7 +28,7 @@ Extend a `@alexvyber/eslint-config/react` config for React projects.
 ```js
 // .eslintrc.cjs
 module.exports = {
-  extends: ['@alexvyber/eslint-config/react']
+  extends: ["@alexvyber/eslint-config/react"],
 }
 ```
 
@@ -39,7 +39,7 @@ Extend a `@alexvyber/eslint-config/mdx` config for `.md`/`.mdx` files.
 ```js
 // .eslintrc.cjs
 module.exports = {
-  extends: ['@alexvyber/eslint-config/mdx']
+  extends: ["@alexvyber/eslint-config/mdx"],
 }
 ```
 
@@ -50,7 +50,7 @@ Extend a `@alexvyber/eslint-config/json` config for `.json`/`.jsonc`/`.json5` fi
 ```js
 // .eslintrc.cjs
 module.exports = {
-  extends: ['@alexvyber/eslint-config/json']
+  extends: ["@alexvyber/eslint-config/json"],
 }
 ```
 
@@ -61,6 +61,6 @@ Extend a `@alexvyber/eslint-config/yml` config for `.yml`/`.yaml` files.
 ```js
 // .eslintrc.cjs
 module.exports = {
-  extends: ['@alexvyber/eslint-config/yml']
+  extends: ["@alexvyber/eslint-config/yml"],
 }
 ```

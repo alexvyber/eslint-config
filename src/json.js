@@ -1,30 +1,30 @@
-const { CODE_BLOCK } = require('./constants.js');
+const { CODE_BLOCK } = require("./constants.js")
 
-const JSONC_FILES = ['tsconfig.json', 'tsconfig.eslint.json', 'turbo.json', '.vscode/launch.json'];
+const JSONC_FILES = ["tsconfig.json", "tsconfig.eslint.json", "turbo.json", ".vscode/launch.json"]
 
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
   overrides: [
     {
-      files: '*.json',
+      files: "*.json",
       excludedFiles: JSONC_FILES,
-      extends: 'plugin:jsonc/recommended-with-json',
+      extends: "plugin:jsonc/recommended-with-json",
     },
     {
-      files: ['*.jsonc', ...JSONC_FILES],
-      extends: 'plugin:jsonc/recommended-with-jsonc',
+      files: ["*.jsonc", ...JSONC_FILES],
+      extends: "plugin:jsonc/recommended-with-jsonc",
     },
     {
-      files: '*.json5',
-      extends: 'plugin:jsonc/recommended-with-json5',
+      files: "*.json5",
+      extends: "plugin:jsonc/recommended-with-json5",
     },
     {
-      files: '*.json{,c,5}',
+      files: "*.json{,c,5}",
       excludedFiles: CODE_BLOCK,
-      plugins: ['unicorn'],
+      plugins: ["unicorn"],
       rules: {
-        'unicorn/filename-case': 'error',
+        "unicorn/filename-case": "error",
       },
     },
   ],
-};
+}
