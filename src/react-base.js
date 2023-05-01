@@ -40,7 +40,7 @@ module.exports = {
     "react/jsx-no-literals": "off", // opposite of `react/jsx-curly-brace-presence`
     // Disallows specific imports
     // https://typescript-eslint.io/rules/no-restricted-imports
-    "@typescript-eslint/no-restricted-imports": ["error", ...RESTRICTED_IMPORTS],
+    // "@typescript-eslint/no-restricted-imports": ["error", ...RESTRICTED_IMPORTS],
     // Disallow extra closing tags for components without children
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md
     "react/self-closing-comp": "error",
