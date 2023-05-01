@@ -1,4 +1,4 @@
-# @theguild/eslint-config
+# @alexvyber/eslint-config
 
 ## 0.9.0
 
