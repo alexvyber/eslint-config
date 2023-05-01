@@ -61,6 +61,6 @@ module.exports = {
 
     // TODO: add in base config
     "prefer-destructuring": ["error", { VariableDeclarator: { object: true } }],
-    quotes: ["error", "single", { avoidEscape: true }], // Matches Prettier, but also replaces backticks
+    quotes: ["error", "double", { avoidEscape: true }], // Matches Prettier, but also replaces backticks
   },
 }
